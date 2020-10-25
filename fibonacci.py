@@ -16,7 +16,7 @@ def fibonacci():
         prox = prox + ant
         ant = tmp
         found += 1
-        resp += str(prox) + ", \n"
+        resp += str(prox) + ", "
     return resp
 
 
